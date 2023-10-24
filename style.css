@@ -1,3 +1,40 @@
-#heading{
+/* #functionalcomponent{
     color: red;
+} */
+
+body{
+    outline: none;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    /* width: 100%; */
+    margin: none;
+    border: none;
+    background-color: black;
+}
+div{
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    outline: none;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+div #image{
+    width: 100px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+div input{
+    height: 25px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+}
+
+div i{
+    margin-left: 1160px;
 }
